@@ -1,0 +1,24 @@
+{
+  "name": "customer-service",
+  "version": "1.0.0",
+  "description": "Simple crud using mongoose and typescript in nodeJS",
+  "scripts": {
+    "test": "test",
+    "build": "tsc src",
+    "dev": "ts-node src/index.ts",
+    "start": "nodemon ./dist/index.js",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "BrunoBNascimento",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "joi": "^13.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.5",
+    "nodemon": "^1.18.3"
+  }
+}
