@@ -2,6 +2,7 @@
 ### Dependencies
  - [X] MongoDB
  - [X] ts-node
+ - [X] Typescript
  - [X] NodeJS
  - [X] Yarn (or any npm client)
 
