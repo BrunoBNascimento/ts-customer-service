@@ -4,7 +4,7 @@ import Customer from "../domain/Customer";
 export default class CustomerController{
   public static async all(req: Request, res: Response) {
     try{
-    const customers = await Customer.find({});
+      const customers = await Customer.find({});
   
       res.status(200).send(customers)
     } catch (exception) {
